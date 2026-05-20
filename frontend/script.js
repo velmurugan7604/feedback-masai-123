@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         submitBtn.disabled = true;
         
         try {
-            const response = await fetch('/api/feedback', {
+            const response = await fetch('https://feedback-masai-123.onrender.com/api/feedback', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
